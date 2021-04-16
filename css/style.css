@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Quicksand', sans-serif!important;
+    box-sizing: border-box;
+    background-color: #efefef;
+}
+.container{
+width:80%;
+margin:0 auto;
+
+}
+header{
+    background: black;
+   
+    color:white;
+}
+.brand{
+    font-weight: 700;
+    font-size: 28px;
+}
+.nav-container{
+    display: flex;
+    height:70px;
+    align-items: center;
+}
+.nav-item-container{
+    margin-left: auto;
+    display: flex;
+}
+.nav-item{
+    margin-left: 24px;
+}
+/* next use */
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active,
+.nav-item a:hover{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Profile card section aria */
+
+
+.profile_card_color{
+    margin-top: 50px;
+    height: 400px;
+    background: #2AD28C;
+    border-radius: 4px;
+    display: flex;
+}
+.profile_img_aria{
+    width:25%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.profile-img-stoke{
+    border: 5px solid black;
+    border-radius: 5px;
+    
+    text-align: center;
+    display:flex;
+    align-items: center;
+
+
+}
+.profile-img img{
+    width:80%;
+    border-radius: 50%;
+    margin: 20px;
+    border: 5px solid black;
+
+}
+.profile-content{
+    width: 75%;
+    padding-left: 50px;
+}
+.name{
+
+    margin-top:60px;
+    font-size:35px;
+    font-weight:700;
+    display: block;
+    line-height: 1.5em;
+    color: white;
+
+}
+.card-title{
+    font-size: 28px;
+    color: white;
+}
+.profile-card-icon{
+    display: flex;
+}
+.padding-icon{
+    margin-right: 15px;
+}
+.profile-card-text-content{
+    margin-top: 15px;
+    padding-right: 50px;
+}
+.profile-card-text-content p{
+    line-height: 1.2em;
+    color: white;
+    }
