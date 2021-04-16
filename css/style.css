@@ -103,10 +103,29 @@ header{
     margin-right: 15px;
 }
 .profile-card-text-content{
-    margin-top: 15px;
+    
     padding-right: 50px;
 }
 .profile-card-text-content p{
     line-height: 1.2em;
     color: white;
     }
+/* skill */
+.Profile-skill{
+    display: flex;
+}
+.Profile-skill button{
+    padding: 10px 20px;
+    background-color: black;
+    margin: 15px 0;
+    margin-right: 15px;
+    outline: none;
+    border: none;
+   
+    
+}
+.Profile-skill button a{
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+}
